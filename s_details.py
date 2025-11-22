@@ -1,13 +1,12 @@
 import sys
-#Check if correct number of argurment
-if len(sys.argv)!=3:
-  print("Usuage: python student.py <name>")
-  sys.exit(1)
-#sys.argy(0) is always the programname
-  script_name = sys.argv[0]
-  name = sys.argv[1]
-  rollno = sys.argv[2]
+if len(sys.argv) != 3:
+    print("Usage: python3 student.py <name> <rollno")
+    sys.exit(1)
 
-print("Script name:",script_name)
-print("Student Name:",name)
-print("Roll No.:",rollno)
+script_name = sys.argv[0]
+name = sys.argv[1]
+rollno = sys.argv[2]
+
+print(f"Script Name:", script_name)
+print(f"Name:",name)
+print(f"Roll No:",rollno)
