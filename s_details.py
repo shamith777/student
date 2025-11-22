@@ -1,6 +1,6 @@
 import sys
 #Check if correct number of argurment
-if len(sys.argv)i=3:
+if len(sys.argv)!=3:
   print("Usuage: python student.py <name>")
   sys.exit(1)
 #sys.argy(0) is always the programname
